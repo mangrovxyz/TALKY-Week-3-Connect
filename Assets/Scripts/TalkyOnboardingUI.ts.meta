@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/7d427523-609a-4730-848b-37264cd58e8f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b7d3c724-37dd-4df2-8ba4-e4967645f7a2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b7d3c724-37dd-4df2-8ba4-e4967645f7a2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 524479be-d492-418f-8dbb-5e855dc41455
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/524479be-d492-418f-8dbb-5e855dc41455>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 137c8ed3-9558-48f1-b501-700bf957f231
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    panelHeight: false
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 20.000000
+      panelHeight: !<float> 22.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">TalkyOnboardingUI – welcome panel</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float panelWidth {"widget":"slider", "min":9, "max":18, "step":1}'
+    - '// @input float panelHeight {"widget":"slider", "min":10, "max":20, "step":1}'

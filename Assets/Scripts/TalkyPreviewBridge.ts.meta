@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/1614c5d7-4e0d-4de1-a212-430c00c3fd73>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a73a82bf-de95-4046-93cf-1aa56df8a02d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a73a82bf-de95-4046-93cf-1aa56df8a02d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d5f53361-cb75-4cf5-ac19-685a0db08105
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d5f53361-cb75-4cf5-ac19-685a0db08105>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: c78ba6d5-e8a5-4aca-a9f7-c36383675abc
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableDebugLogs: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #A78BFA;\">TalkyPreviewBridge – Connected Lens transport</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - // @input bool enableDebugLogs = true

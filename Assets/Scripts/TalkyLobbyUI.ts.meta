@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/a791f854-013c-40cf-9318-8af3e5ee2c25>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a642f5ff-2092-4209-b41b-13ea11a39b7a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a642f5ff-2092-4209-b41b-13ea11a39b7a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 271348a4-75c5-467d-b3ba-39afe36d140e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/271348a4-75c5-467d-b3ba-39afe36d140e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: fe670932-c924-4741-962f-8873f2fbb2ad
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 32.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">TalkyLobbyUI – status strip</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float panelWidth {"widget":"slider", "min":8, "max":16, "step":1}'

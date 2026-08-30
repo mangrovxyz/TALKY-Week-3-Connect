@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/961ba766-aebe-4403-aa90-beb9bbf0b9f5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ef606e78-1431-4692-ae84-19b89b4b3bf0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ef606e78-1431-4692-ae84-19b89b4b3bf0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7ca1fd32-287e-4e9e-8aa6-8f3f8feabedc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7ca1fd32-287e-4e9e-8aa6-8f3f8feabedc>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 1972e1b5-df01-491e-9365-e09c0ebcd0cb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audio: false
+    chatController: false
+    cloud: false
+    connectedLens: false
+    messagingUI: false
+    previewBridge: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - messagingUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      chatController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      previewBridge: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      audio: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      cloud: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      connectedLens: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">SpokaMain – messaging orchestrator</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - // @input AssignableType_1 messagingUI
+    - // @input AssignableType_2 chatController
+    - // @input AssignableType_3 previewBridge
+    - // @input AssignableType_4 audio
+    - // @input AssignableType_5 cloud
+    - // @input AssignableType_6 connectedLens
+    - '// @ui {"widget":"group_end"}'

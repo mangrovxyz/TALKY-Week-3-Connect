@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/8fd1982a-8b96-4add-9ea6-387179ff95d6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4033ede9-7fed-4f7a-ad50-5debdbe409ab
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4033ede9-7fed-4f7a-ad50-5debdbe409ab
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 57a6725a-3b88-4401-b648-900548c92b53
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/57a6725a-3b88-4401-b648-900548c92b53>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 1b2e02fc-a191-4419-a871-ce9883527012
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    chunkSizeMs: false
+    enableDebugLogs: false
+    microphoneAsset: false
+    sampleRate: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - microphoneAsset: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      sampleRate: !<float> 16000.000000
+      chunkSizeMs: !<float> 400.000000
+      enableDebugLogs: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">TalkyVoiceController – PTT / Always-On mic</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.AudioTrackAsset microphoneAsset {"hint":"Optional Microphone Audio Track asset; if empty, mic init is skipped gracefully"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float sampleRate = 16000 {"hint":"Voice sample rate (Hz)", "widget":"slider", "min":8000, "max":24000, "step":1000}'
+    - '// @input float chunkSizeMs = 400 {"hint":"Chunk length in milliseconds", "widget":"slider", "min":100, "max":800, "step":50}'
+    - '// @input bool enableDebugLogs = true {"hint":"Enable mic debug logs"}'
+    - '// @ui {"widget":"group_end"}'

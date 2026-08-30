@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/fe6a4ce1-2266-4437-b28d-163856b8cd8e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 76d613e8-c516-4e2f-a1be-6e6367efba89
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 76d613e8-c516-4e2f-a1be-6e6367efba89
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 320eb76c-54e5-4255-86ff-a27ee80a48e0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/320eb76c-54e5-4255-86ff-a27ee80a48e0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: a94ba3a4-6f98-4611-99de-aad619279ae0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">Spoka Messaging UI</span>"}'
+    - '// @ui {"widget":"separator"}'

@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/654af53b-a53b-4a0d-9f75-1952d0010fdf>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d4f48ca3-0536-4d68-b016-cbb7c453f1b1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d4f48ca3-0536-4d68-b016-cbb7c453f1b1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 654c212a-653e-4249-9360-e2b73e39d4e4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/654c212a-653e-4249-9360-e2b73e39d4e4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 524fb93c-6e07-4ce7-9168-037fc6310a64
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoStartSession: false
+    connectedLensModule: false
+    enableDebugLogs: false
+    previewBridge: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - connectedLensModule: !<reference.ConnectedLensModule> 00000000-0000-0000-0000-000000000000
+      previewBridge: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      autoStartSession: true
+      enableDebugLogs: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">TalkyConnectedLensBootstrap – dual preview session</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - // @input Asset.ConnectedLensModule connectedLensModule
+    - // @input AssignableType_1 previewBridge
+    - // @input bool autoStartSession = true
+    - // @input bool enableDebugLogs = true

@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/4c9bedef-7101-475c-970d-7d39c77eb671>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a5b2b893-adc7-4bbc-bd16-f033ccaab5fe
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a5b2b893-adc7-4bbc-bd16-f033ccaab5fe
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3f6da9cd-b3d9-47e9-abc0-c194867539a7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3f6da9cd-b3d9-47e9-abc0-c194867539a7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 9c976df3-d077-4062-b2d8-b4eb8aaf3abe
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    panelHeight: false
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 14.000000
+      panelHeight: !<float> 11.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">TalkyChatUI – room text chat</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float panelWidth {"widget":"slider", "min":7, "max":16, "step":1}'
+    - '// @input float panelHeight {"widget":"slider", "min":6, "max":14, "step":1}'

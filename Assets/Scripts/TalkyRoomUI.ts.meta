@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/fd2bb750-7ca5-4cdc-922a-5f395ec16fcd>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 765cc504-1879-4bb6-b141-0b2c92e27599
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 765cc504-1879-4bb6-b141-0b2c92e27599
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f556ca0c-f29e-4cbd-8078-e1298ac5d6db
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f556ca0c-f29e-4cbd-8078-e1298ac5d6db>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 5a750dc3-6721-45a0-ba50-a77f2d33db94
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    panelHeight: false
+    panelWidth: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 28.000000
+      panelHeight: !<float> 24.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #FACC15;\">TalkyRoomUI – live room HUD</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float panelWidth {"widget":"slider", "min":8, "max":18, "step":1}'
+    - '// @input float panelHeight {"widget":"slider", "min":7, "max":16, "step":1}'
+    - '// @ui {"widget":"group_end"}'
